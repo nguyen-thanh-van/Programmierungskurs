@@ -36,7 +36,7 @@ public class StudentManagerTest {
     @BeforeEach
     public void setup() {
         courses = new ArrayList<>();
-        studentManager = new StudentManager(null, courses);
+        studentManager = new StudentManager(new ArrayList<>(), courses);
     }
 
     @Test
